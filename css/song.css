@@ -123,3 +123,25 @@
 .lyric .detail-scroll p.active{
     color:#fff;
 }
+.more-aciton {
+    position: absolute;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 100%;
+    bottom: 1em;
+  }
+  .more-aciton > a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.6rem 5rem;
+    border: 1px solid #d33a31;
+    border-radius: 2rem;
+  }
+  .more-aciton .open {
+    color: #d33a31;
+  }
+  
+  .more-aciton .loaded {
+    color: white;
+    background: #d33a31;
+  }
